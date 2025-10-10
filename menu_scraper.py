@@ -66,7 +66,7 @@ if __name__ == "__main__":
     next_month = (start.replace(day=28) + timedelta(days=4)).replace(day=1)
     end = (next_month.replace(day=28) + timedelta(days=4)).replace(day=1) - timedelta(days=1)
 
-    with open("menu_scraper.ics", "w", encoding="utf-8") as f:
+    with open("menu.ics", "w", encoding="utf-8") as f:
         f.write("BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:menu_scraper\n")
         for d in get_weekdays(start, end):
             for school_key, school_name in SCHOOLS.items():
@@ -74,4 +74,4 @@ if __name__ == "__main__":
                 write_event(f, d, school_key, school_name, items)
         f.write("END:VCALENDAR\n")
 
-    print("✅ Finished. Check menu_scraper.ics")
+    print("✅ Finished. Check menu.ics")
