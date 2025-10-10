@@ -11,7 +11,10 @@ SCHOOLS = {
 MEAL_TYPE = "breakfast"
 TIMEZONE = "America/New_York"
 MEAL_TIME = {"start": "070000", "end": "073000"}
-KEYWORDS = ["pancake", "waffles", "cinnis", "Strawberry Cream Cheese Stuffed Bagel","french toast"]
+KEYWORDS = [
+    "pancake", "waffles", "cinnis", "strawberry cream cheese stuffed bagel",
+    "french toast", "bagel", "cereal", "juice", "milk", "yogurt", "muffin"
+]
 
 # --- DATE RANGE ---
 def get_weekdays(start_date, end_date):
@@ -31,24 +34,25 @@ def fetch_menu(school_key, d):
         data = response.json()
         for day in data.get("days", []):
             if day.get("date") == f"{y}-{m}-{d_str}":
-                return [
-                    item["food"]["name"].strip()
-                    for item in day.get("menu_items", [])
-                    if item.get("food") and any(k in item["food"]["name"].lower() for k in KEYWORDS)
-                ]
+                filtered = []
+                for item in day.get("menu_items", []):
+                    if item.get("food") and item["food"].get("name"):
+                        name = item["food"]["name"].strip()
+                        if any(k in name.lower() for k in KEYWORDS):
+                            filtered.append(name)
+                return filtered
     except Exception as e:
         print(f"⚠️ Failed to fetch {school_key} menu for {d.strftime('%Y-%m-%d')}: {e}")
     return []
 
 # --- WRITE EVENT ---
-def write_event(f, d, school_key, school_name, items):
+def write_event(f, d, uid_prefix, summary, items):
     if not items:
         return
     start = d.strftime(f"%Y%m%dT{MEAL_TIME['start']}")
     end = d.strftime(f"%Y%m%dT{MEAL_TIME['end']}")
-    uid = f"{school_key}-{d.strftime('%Y%m%d')}-{uuid.uuid4()}"
-    summary = f"{school_name} Breakfast"
-    description = "\\n".join(items)
+    uid = f"{uid_prefix}-{d.strftime('%Y%m%d')}-{uuid.uuid4()}"
+    description = "\\n\\n".join(items)
 
     f.write("BEGIN:VEVENT\n")
     f.write(f"UID:{uid}\n")
@@ -76,8 +80,6 @@ if __name__ == "__main__":
                     combined_items.append(f"{school_name}:\n" + "\n".join(items))
             if combined_items:
                 write_event(f, d, "combined", "School Breakfast", combined_items)
-
-    
         f.write("END:VCALENDAR\n")
 
     print("✅ Finished. Check menu.ics")
