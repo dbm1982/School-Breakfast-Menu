@@ -15,6 +15,8 @@ def get_menu(url):
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.binary_location = "/usr/bin/chromium-browser"  # Explicit path
+
     driver = webdriver.Chrome(options=options)
     driver.get(url)
     time.sleep(3)
