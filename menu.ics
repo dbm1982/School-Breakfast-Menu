@@ -2,355 +2,169 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:menu_scraper
 BEGIN:VEVENT
-UID:jfk-20251001-c1a40ad3-1feb-49c9-ba76-01abce7c54b1
+UID:combined-20251001-5065ba28-6737-4ab4-b35c-418ce3b893ae
 DTSTAMP:20251001T060000Z
 DTSTART;TZID=America/New_York:20251001T070000
 DTEND;TZID=America/New_York:20251001T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Blueberry Bash Waffles\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Blueberry Bash Waffles\nHolbrook Middle High School:
+Pancakes
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251001-e6ba5152-a5a9-4df5-a2c9-de16f18872ac
-DTSTAMP:20251001T060000Z
-DTSTART;TZID=America/New_York:20251001T070000
-DTEND;TZID=America/New_York:20251001T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Pancakes\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251002-f632c86b-75b3-44e1-af5d-4fc6cc9c36dd
+UID:combined-20251002-e0545316-9a1f-4058-8d77-3218a5bb61d1
 DTSTAMP:20251002T060000Z
 DTSTART;TZID=America/New_York:20251002T070000
 DTEND;TZID=America/New_York:20251002T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Cinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nTropical Fruit Cocktail\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Mini Cinnis\nHolbrook Middle High School:
+Mini Cinnis
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251002-3413655b-f345-4eb0-b148-297a92b3b990
-DTSTAMP:20251002T060000Z
-DTSTART;TZID=America/New_York:20251002T070000
-DTEND;TZID=America/New_York:20251002T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Reduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nTropical Fruit Cocktail\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251003-acde7f1a-bd5e-4a44-8646-d45800a11bba
-DTSTAMP:20251003T060000Z
-DTSTART;TZID=America/New_York:20251003T070000
-DTEND;TZID=America/New_York:20251003T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Strawberry Cream Cheese Stuffed Bagel\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jrsr-high-20251003-700b98d9-eb4c-4bf6-a36b-7c962d632f56
-DTSTAMP:20251003T060000Z
-DTSTART;TZID=America/New_York:20251003T070000
-DTEND;TZID=America/New_York:20251003T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Strawberry Cream Cheese Stuffed Bagel\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251006-52ceb7d1-9693-40f3-b66e-5f0ec0e986a3
+UID:combined-20251006-8a948f4e-726f-4d89-b6a4-5d4df69ebf52
 DTSTAMP:20251006T060000Z
 DTSTART;TZID=America/New_York:20251006T070000
 DTEND;TZID=America/New_York:20251006T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Whole Grain French Toast Sticks\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Whole Grain French Toast Sticks\nHolbrook Middle High School:
+Whole Grain French Toast Sticks
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251006-00d792a4-5f67-49c8-86af-4c7cf780eee7
-DTSTAMP:20251006T060000Z
-DTSTART;TZID=America/New_York:20251006T070000
-DTEND;TZID=America/New_York:20251006T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Whole Grain French Toast Sticks\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251007-257f15af-79eb-48f5-9530-d501b675130e
+UID:combined-20251007-c1109060-0f63-42fa-b68c-7b85b92e8be3
 DTSTAMP:20251007T060000Z
 DTSTART;TZID=America/New_York:20251007T070000
 DTEND;TZID=America/New_York:20251007T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Blueberry Bash Waffles\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Blueberry Bash Waffles\nHolbrook Middle High School:
+Blueberry Bash Waffles
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251007-265166e2-a261-44ba-b3cf-e1edef4cffbb
-DTSTAMP:20251007T060000Z
-DTSTART;TZID=America/New_York:20251007T070000
-DTEND;TZID=America/New_York:20251007T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Blueberry Bash Waffles\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251008-94d061e0-dd97-4711-9eea-10f0422427c5
+UID:combined-20251008-190e67b5-0900-4c56-bd28-645ea03ba844
 DTSTAMP:20251008T060000Z
 DTSTART;TZID=America/New_York:20251008T070000
 DTEND;TZID=America/New_York:20251008T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Cinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Mini Cinnis\nHolbrook Middle High School:
+Mini Cinnis
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251008-6d3e3bf3-3135-41e2-aafa-ea4a064fe5d2
-DTSTAMP:20251008T060000Z
-DTSTART;TZID=America/New_York:20251008T070000
-DTEND;TZID=America/New_York:20251008T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Reduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251009-fc1e9fff-c541-4670-8ad1-f5cc2fdeb0ca
-DTSTAMP:20251009T060000Z
-DTSTART;TZID=America/New_York:20251009T070000
-DTEND;TZID=America/New_York:20251009T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Strawberry Cream Cheese Stuffed Bagel\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nTropical Fruit Cocktail\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jrsr-high-20251009-fa2964f4-7b6c-48ef-a4b6-89ac212b1d2d
-DTSTAMP:20251009T060000Z
-DTSTART;TZID=America/New_York:20251009T070000
-DTEND;TZID=America/New_York:20251009T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Egg & Cheese Breakfast Scrambler\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nTropical Fruit Cocktail\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251010-77921fcd-334b-4aa7-bb69-a702f7808ff5
+UID:combined-20251010-f8ddbbaa-ef12-45d5-a126-d16830036987
 DTSTAMP:20251010T060000Z
 DTSTART;TZID=America/New_York:20251010T070000
 DTEND;TZID=America/New_York:20251010T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Whole Grain Pancake Bites\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Whole Grain Pancake Bites
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251010-d530dba1-75e5-4dbd-a3ef-ee1eee8ed5e0
-DTSTAMP:20251010T060000Z
-DTSTART;TZID=America/New_York:20251010T070000
-DTEND;TZID=America/New_York:20251010T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Strawberry Cream Cheese Stuffed Bagel\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251014-9e91c7d9-1754-4f4c-9ac7-1c33b7d72c50
+UID:combined-20251014-afc2ea25-5e7a-4d06-bfd8-ec4e44ee4fff
 DTSTAMP:20251014T060000Z
 DTSTART;TZID=America/New_York:20251014T070000
 DTEND;TZID=America/New_York:20251014T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Blueberry Bash Waffles\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Blueberry Bash Waffles\nHolbrook Middle High School:
+Blueberry Bash Waffles
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251014-ba47eacb-8482-4e7d-ae30-a8bb76ca2797
-DTSTAMP:20251014T060000Z
-DTSTART;TZID=America/New_York:20251014T070000
-DTEND;TZID=America/New_York:20251014T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Blueberry Bash Waffles\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251015-541fd96d-926f-4035-9789-cb7c04832509
+UID:combined-20251015-647a9e28-b943-41b7-8ede-cc49cd8e0930
 DTSTAMP:20251015T060000Z
 DTSTART;TZID=America/New_York:20251015T070000
 DTEND;TZID=America/New_York:20251015T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Cinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Mini Cinnis\nHolbrook Middle High School:
+Mini Cinnis
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251015-d1616eea-c936-40c9-9e67-a6d14eb49551
-DTSTAMP:20251015T060000Z
-DTSTART;TZID=America/New_York:20251015T070000
-DTEND;TZID=America/New_York:20251015T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Reduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251016-bcd1426e-4066-46c2-8fac-f556ba69ee52
-DTSTAMP:20251016T060000Z
-DTSTART;TZID=America/New_York:20251016T070000
-DTEND;TZID=America/New_York:20251016T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Strawberry Cream Cheese Stuffed Bagel\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nTropical Fruit Cocktail\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jrsr-high-20251016-4b82372f-36a3-42c0-be9b-37700e54f6d2
-DTSTAMP:20251016T060000Z
-DTSTART;TZID=America/New_York:20251016T070000
-DTEND;TZID=America/New_York:20251016T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Egg & Cheese Breakfast Scrambler\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251017-a4aa6df3-c179-40a4-8ae6-02dc623e4fde
+UID:combined-20251017-cd003358-31eb-49d3-b444-5b480f46d21d
 DTSTAMP:20251017T060000Z
 DTSTART;TZID=America/New_York:20251017T070000
 DTEND;TZID=America/New_York:20251017T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Whole Grain Pancake Bites\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Whole Grain Pancake Bites
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251017-6a24e78d-73f2-4199-b255-76b25c7c59e2
-DTSTAMP:20251017T060000Z
-DTSTART;TZID=America/New_York:20251017T070000
-DTEND;TZID=America/New_York:20251017T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Strawberry Cream Cheese Stuffed Bagel\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251020-0d1d888d-5575-47e6-b684-59fbf881e190
+UID:combined-20251020-0e5056d4-b8e4-406f-8925-86044ebf725b
 DTSTAMP:20251020T060000Z
 DTSTART;TZID=America/New_York:20251020T070000
 DTEND;TZID=America/New_York:20251020T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Whole Grain French Toast Sticks\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Whole Grain French Toast Sticks\nHolbrook Middle High School:
+Whole Grain French Toast Sticks
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251020-84275f7e-bfe9-49b2-8a92-b2beea878664
-DTSTAMP:20251020T060000Z
-DTSTART;TZID=America/New_York:20251020T070000
-DTEND;TZID=America/New_York:20251020T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Whole Grain French Toast Sticks\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251021-4bb39281-c338-4708-bdba-c9384a18d993
+UID:combined-20251021-545cfd1a-fec3-4f74-8899-13209a4d69a8
 DTSTAMP:20251021T060000Z
 DTSTART;TZID=America/New_York:20251021T070000
 DTEND;TZID=America/New_York:20251021T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Blueberry Bash Waffles\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Blueberry Bash Waffles\nHolbrook Middle High School:
+Blueberry Bash Waffles
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251021-a9ccd6a5-0e6e-41a6-b1e0-e55ba233070b
-DTSTAMP:20251021T060000Z
-DTSTART;TZID=America/New_York:20251021T070000
-DTEND;TZID=America/New_York:20251021T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Blueberry Bash Waffles\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251022-ce810168-4096-4f9b-975e-1725976550e8
+UID:combined-20251022-c1d48ece-f36e-4be3-be70-ab0580d8422a
 DTSTAMP:20251022T060000Z
 DTSTART;TZID=America/New_York:20251022T070000
 DTEND;TZID=America/New_York:20251022T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Cinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Mini Cinnis\nHolbrook Middle High School:
+Mini Cinnis
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251022-0562e120-48d4-48c9-83b1-62f6f6bfd5f5
-DTSTAMP:20251022T060000Z
-DTSTART;TZID=America/New_York:20251022T070000
-DTEND;TZID=America/New_York:20251022T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Reduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251023-89bd6a18-058d-40f0-ad0e-a2e23b8de77d
-DTSTAMP:20251023T060000Z
-DTSTART;TZID=America/New_York:20251023T070000
-DTEND;TZID=America/New_York:20251023T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Strawberry Cream Cheese Stuffed Bagel\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nTropical Fruit Cocktail\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jrsr-high-20251023-eac90a43-bdad-432f-911f-5b8a68d33f00
-DTSTAMP:20251023T060000Z
-DTSTART;TZID=America/New_York:20251023T070000
-DTEND;TZID=America/New_York:20251023T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Egg & Cheese Breakfast Scrambler\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nTropical Fruit Cocktail\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251024-1c7018b9-25f1-44a8-a8d1-80ee9884a578
+UID:combined-20251024-bf57a9be-2681-4017-8218-c5bfce5d5411
 DTSTAMP:20251024T060000Z
 DTSTART;TZID=America/New_York:20251024T070000
 DTEND;TZID=America/New_York:20251024T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Whole Grain Pancake Bites\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Whole Grain Pancake Bites
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251024-44eb3582-05f4-4cdd-a729-f27db76652ae
-DTSTAMP:20251024T060000Z
-DTSTART;TZID=America/New_York:20251024T070000
-DTEND;TZID=America/New_York:20251024T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Strawberry Cream Cheese Stuffed Bagel\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251027-a5d8c42b-516b-4d25-9d06-98655dcb3835
+UID:combined-20251027-9811b78a-8e1e-4cdf-83d1-a38336fed408
 DTSTAMP:20251027T060000Z
 DTSTART;TZID=America/New_York:20251027T070000
 DTEND;TZID=America/New_York:20251027T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Whole Grain French Toast Sticks\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Whole Grain French Toast Sticks\nHolbrook Middle High School:
+Whole Grain French Toast Sticks
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251027-74f9804e-84e7-4d49-a1fa-9a5a77b20439
-DTSTAMP:20251027T060000Z
-DTSTART;TZID=America/New_York:20251027T070000
-DTEND;TZID=America/New_York:20251027T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Whole Grain French Toast Sticks\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251028-34fd8eef-a0bf-46ff-b4cf-0f45b0b2060a
+UID:combined-20251028-e222be0d-15b9-4336-b348-e1094fff6a81
 DTSTAMP:20251028T060000Z
 DTSTART;TZID=America/New_York:20251028T070000
 DTEND;TZID=America/New_York:20251028T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Blueberry Bash Waffles\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Blueberry Bash Waffles\nHolbrook Middle High School:
+Blueberry Bash Waffles
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251028-27edb20f-a8d2-4b22-b78f-76cf92c91262
-DTSTAMP:20251028T060000Z
-DTSTART;TZID=America/New_York:20251028T070000
-DTEND;TZID=America/New_York:20251028T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Blueberry Bash Waffles\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251029-69778cd6-a04b-44d0-b828-a4d14a3b0b21
+UID:combined-20251029-66ce4e95-578d-4501-b17b-5fb9802e9e01
 DTSTAMP:20251029T060000Z
 DTSTART;TZID=America/New_York:20251029T070000
 DTEND;TZID=America/New_York:20251029T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Cinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Mini Cinnis\nHolbrook Middle High School:
+Mini Cinnis
 END:VEVENT
 BEGIN:VEVENT
-UID:jrsr-high-20251029-b236a1ba-33e9-495c-a91c-25507ea52871
-DTSTAMP:20251029T060000Z
-DTSTART;TZID=America/New_York:20251029T070000
-DTEND;TZID=America/New_York:20251029T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Reduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251030-52574fa2-5a65-47c8-ae1a-72619a7cf51b
-DTSTAMP:20251030T060000Z
-DTSTART;TZID=America/New_York:20251030T070000
-DTEND;TZID=America/New_York:20251030T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Strawberry Cream Cheese Stuffed Bagel\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nTropical Fruit Cocktail\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jrsr-high-20251030-6b80dc38-66c0-431d-ae17-3ffba4fd056c
-DTSTAMP:20251030T060000Z
-DTSTART;TZID=America/New_York:20251030T070000
-DTEND;TZID=America/New_York:20251030T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Egg & Cheese Breakfast Scrambler\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nTropical Fruit Cocktail\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jfk-20251031-c72dfad3-cc7d-45cc-9e6e-b7526c0bbb01
+UID:combined-20251031-3cd2d41e-7a03-40a1-b01b-f8d72080046a
 DTSTAMP:20251031T060000Z
 DTSTART;TZID=America/New_York:20251031T070000
 DTEND;TZID=America/New_York:20251031T073000
-SUMMARY:JFK Elementary Breakfast
-DESCRIPTION:Whole Grain Pancake Bites\nCinnamon Toast Crunch\nFroot Loops Cereal Bowl\nReduced SugarLucky Charms Cereal Bowl\nStrawberry Banana Yogurt\nLow Fat Mozzarella String Cheese\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
-END:VEVENT
-BEGIN:VEVENT
-UID:jrsr-high-20251031-76f41668-3d1c-49ce-841a-92b6502893f3
-DTSTAMP:20251031T060000Z
-DTSTART;TZID=America/New_York:20251031T070000
-DTEND;TZID=America/New_York:20251031T073000
-SUMMARY:Holbrook Middle High School Breakfast
-DESCRIPTION:Strawberry Cream Cheese Stuffed Bagel\nReduced SugarLucky Charms Cereal Bowl\nCinnamon Toast Crunch\nBagel\nApple Juice\nOrange Juice\n1% Low-fat Milk\nChocolate Fat Free Milk
+SUMMARY:School Breakfast Breakfast
+DESCRIPTION:JFK Elementary:
+Whole Grain Pancake Bites
 END:VEVENT
 END:VCALENDAR
