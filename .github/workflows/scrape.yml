@@ -3,7 +3,7 @@ name: Daily Menu Calendar
 on:
   schedule:
     - cron: '0 10 * * *'  # Runs daily at 6 AM ET
-  workflow_dispatch:      # Allows manual run from GitHub UI
+  workflow_dispatch:
 
 jobs:
   build:
@@ -29,13 +29,21 @@ jobs:
           PATH: "/usr/lib/chromium-browser/:$PATH"
         run: python menu_scraper.py
 
+      - name: Override remote with token
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
+
+      - name: Show current remote URL (debug)
+        run: git remote -v
+
       - name: Commit and push updated calendar
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
           git add menu.ics
           git commit -m "Update menu.ics for $(date +'%Y-%m-%d')" || echo "No changes"
           git push origin HEAD:main
