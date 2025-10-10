@@ -11,7 +11,7 @@ SCHOOLS = {
 MEAL_TYPE = "breakfast"
 TIMEZONE = "America/New_York"
 MEAL_TIME = {"start": "070000", "end": "073000"}
-KEYWORDS = ["pancake", "fruit", "milk", "cereal", "juice", "toast", "egg", "bagel", "waffle", "yogurt", "cheese", "sausage", "breakfast"]
+KEYWORDS = ["pancake", "waffles", "cinnis", "Strawberry Cream Cheese Stuffed Bagel","french toast"]
 
 # --- DATE RANGE ---
 def get_weekdays(start_date, end_date):
@@ -69,9 +69,15 @@ if __name__ == "__main__":
     with open("menu.ics", "w", encoding="utf-8") as f:
         f.write("BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:menu_scraper\n")
         for d in get_weekdays(start, end):
+            combined_items = []
             for school_key, school_name in SCHOOLS.items():
                 items = fetch_menu(school_key, d)
-                write_event(f, d, school_key, school_name, items)
+                if items:
+                    combined_items.append(f"{school_name}:\n" + "\n".join(items))
+            if combined_items:
+                write_event(f, d, "combined", "School Breakfast", combined_items)
+
+    
         f.write("END:VCALENDAR\n")
 
     print("✅ Finished. Check menu.ics")
