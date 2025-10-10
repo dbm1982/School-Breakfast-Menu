@@ -7,8 +7,9 @@ import uuid
 
 # --- CONFIG ---
 SCHOOLS = {
-    "JFK": "https://your.nutrislice.url/jfk/breakfast",
-    "HMHS": "https://your.nutrislice.url/hmhs/breakfast"
+SCHOOLS = {
+    "JFK": "https://holbrook.nutrislice.com/menu/jfk/breakfast",
+    "HMHS": "https://holbrook.nutrislice.com/menu/hmhs/breakfast"
 }
 TIMEZONE = "America/New_York"
 MEAL_TIME = {"start": "070000", "end": "073000"}
