@@ -1,40 +1,39 @@
-from datetime import datetime, timedelta
-import pytz
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
+import requests
+from datetime import datetime
 import uuid
 
 # --- CONFIG ---
 SCHOOLS = {
-    "JFK": "https://holbrook.nutrislice.com/menu/jfk/breakfast",
-    "HMHS": "https://holbrook.nutrislice.com/menu/hmhs/breakfast"
+    "JFK": "jfk",
+    "HMHS": "hmhs"
 }
+DISTRICT = "holbrook"
+BASE_URL = "https://api.nutrislice.com/menu/api/weeks/school"
+DATE_STR = "2025-10-14"
 TIMEZONE = "America/New_York"
+MEAL = "breakfast"
 MEAL_TIME = {"start": "070000", "end": "073000"}
 
-# --- UTILITIES ---
-def get_weekdays(year, month):
-    date = datetime(year, month, 1)
-    weekdays = []
-    while date.month == month:
-        if date.weekday() < 5:  # Monday–Friday
-            weekdays.append(date)
-        date += timedelta(days=1)
-    return weekdays
+# --- FETCHER ---
+def fetch_menu(school, date_str):
+    url = f"{BASE_URL}/{DISTRICT}/{school}/{MEAL}?date={date_str}"
+    print(f"Fetching: {url}")
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+        for day in data.get("days", []):
+            if day.get("date") == date_str:
+                items = [item["name"] for item in day.get("menu_items", []) if item.get("name")]
+                print(f"{school} items:", items)
+                return items
+        print(f"No menu found for {school} on {date_str}")
+        return []
+    except Exception as e:
+        print(f"⚠️ Failed to fetch {school} menu:", e)
+        return []
 
-def init_driver():
-    options = Options()
-    options.add_argument("--headless")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    return webdriver.Chrome(options=options)
-
-def scrape_menu(driver, url, date_str):
-    driver.get(f"{url}?date={date_str}")
-    items = driver.find_elements(By.CSS_SELECTOR, ".menu-item-name, .item-name, .food-item")
-    return [i.text.strip() for i in items if i.text.strip()]
-
+# --- WRITER ---
 def write_event(f, date, school, items):
     if not items:
         return
@@ -46,7 +45,7 @@ def write_event(f, date, school, items):
 
     f.write("BEGIN:VEVENT\n")
     f.write(f"UID:{uid}\n")
-    f.write(f"DTSTAMP:{date.strftime('%Y%m%dT%H%M%SZ')}\n")
+    f.write(f"DTSTAMP:{date.strftime('%Y%m%dT060000Z')}\n")
     f.write(f"DTSTART;TZID={TIMEZONE}:{start}\n")
     f.write(f"DTEND;TZID={TIMEZONE}:{end}\n")
     f.write(f"SUMMARY:{summary}\n")
@@ -55,23 +54,14 @@ def write_event(f, date, school, items):
 
 # --- MAIN ---
 def main():
-    eastern = pytz.timezone(TIMEZONE)
-    now = datetime.now(eastern)
-    dates = get_weekdays(now.year, now.month)
-
-    driver = init_driver()
-
+    date = datetime.strptime(DATE_STR, "%Y-%m-%d")
     with open("menu.ics", "w", encoding="utf-8") as f:
         f.write("BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:menu_scraper\n")
-        for date in dates:
-            date_str = date.strftime("%Y-%m-%d")
-            for school, url in SCHOOLS.items():
-                print(f"Scraping {school} for {date_str}")
-                items = scrape_menu(driver, url, date_str)
-                write_event(f, date, school, items)
+        for school in SCHOOLS.values():
+            items = fetch_menu(school, DATE_STR)
+            write_event(f, date, school.upper(), items)
         f.write("END:VCALENDAR\n")
-
-    driver.quit()
+    print("✅ Finished. Check menu.ics")
 
 if __name__ == "__main__":
     main()
