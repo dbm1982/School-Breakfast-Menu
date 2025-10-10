@@ -8,7 +8,7 @@ SCHOOLS = {
     "HMHS": "hmhs"
 }
 DISTRICT = "holbrook"
-BASE_URL = "https://api.nutrislice.com/menu/api/weeks/school"
+BASE_URL = "https://holbrook.nutrislice.com/menu/api/weeks/school"
 DATE_STR = "2025-10-14"
 TIMEZONE = "America/New_York"
 MEAL = "breakfast"
