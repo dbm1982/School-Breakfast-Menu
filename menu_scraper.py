@@ -7,7 +7,6 @@ import uuid
 
 # --- CONFIG ---
 SCHOOLS = {
-SCHOOLS = {
     "JFK": "https://holbrook.nutrislice.com/menu/jfk/breakfast",
     "HMHS": "https://holbrook.nutrislice.com/menu/hmhs/breakfast"
 }
