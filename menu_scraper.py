@@ -11,10 +11,6 @@ SCHOOLS = {
 MEAL_TYPE = "breakfast"
 TIMEZONE = "America/New_York"
 MEAL_TIME = {"start": "070000", "end": "073000"}
-KEYWORDS = [
-    "pancake", "waffles", "cinnis", "strawberry cream cheese stuffed bagel",
-    "french toast", "bagel", "cereal", "juice", "milk", "yogurt", "muffin"
-]
 
 # --- DATE RANGE ---
 def get_weekdays(start_date, end_date):
@@ -34,16 +30,12 @@ def fetch_menu(school_key, d):
         data = response.json()
         for day in data.get("days", []):
             if day.get("date") == f"{y}-{m}-{d_str}":
-                filtered = []
                 for item in day.get("menu_items", []):
                     if item.get("food") and item["food"].get("name"):
-                        name = item["food"]["name"].strip()
-                        if any(k in name.lower() for k in KEYWORDS):
-                            filtered.append(name)
-                return filtered
+                        return item["food"]["name"].strip()  # First valid item only
     except Exception as e:
         print(f"⚠️ Failed to fetch {school_key} menu for {d.strftime('%Y-%m-%d')}: {e}")
-    return []
+    return None
 
 # --- WRITE EVENT ---
 def write_event(f, d, uid_prefix, summary, items):
@@ -75,9 +67,9 @@ if __name__ == "__main__":
         for d in get_weekdays(start, end):
             combined_items = []
             for school_key, school_name in SCHOOLS.items():
-                items = fetch_menu(school_key, d)
-                if items:
-                    combined_items.append(f"{school_name}:\n" + "\n".join(items))
+                item = fetch_menu(school_key, d)
+                if item:
+                    combined_items.append(f"{school_name}: {item}")
             if combined_items:
                 write_event(f, d, "combined", "School Breakfast", combined_items)
         f.write("END:VCALENDAR\n")
