@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:JFK: No menu found\nHMHS: No menu found
+DTSTART:20251010T063012Z
+SUMMARY:🍽️ Breakfast Menu
+UID:c22e2bbb-5c14-4fcb-b2d7-a99c223b7294@c22e.org
+END:VEVENT
+END:VCALENDAR
