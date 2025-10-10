@@ -2,7 +2,7 @@ name: Daily Menu Calendar
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # Runs daily at 6 AM ET (10 UTC)
+    - cron: '0 10 * * *'  # Runs daily at 6 AM ET
   workflow_dispatch:      # Allows manual run from GitHub UI
 
 jobs:
@@ -18,13 +18,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install Chrome and ChromeDriver
         run: |
-          pip install -r requirements.txt
           sudo apt-get update
-          sudo apt-get install -y chromium-driver
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+          pip install -r requirements.txt
 
       - name: Run scraper
+        env:
+          PATH: "/usr/lib/chromium-browser/:$PATH"
         run: python menu_scraper.py
 
       - name: Commit and push updated calendar
