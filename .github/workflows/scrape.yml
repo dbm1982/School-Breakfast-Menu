@@ -35,8 +35,9 @@ jobs:
         run: |
           git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
 
-      - name: Show current remote URL (debug)
-        run: git remote -v
+      - name: Remove GitHub Actions bot credentials
+        run: |
+          git config --local --unset-all http.https://github.com/.extraheader || true
 
       - name: Commit and push updated calendar
         env:
