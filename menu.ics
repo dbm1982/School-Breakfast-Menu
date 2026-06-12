@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:menu_scraper
 BEGIN:VEVENT
-UID:combined-20260601-29f29f1f-05aa-47f1-ab01-2600942d4e16
+UID:combined-20260601-fcceaaad-746d-4458-8fa4-8c32b04a430b
 DTSTAMP:20260601T060000Z
 DTSTART;TZID=America/New_York:20260601T070000
 DTEND;TZID=America/New_York:20260601T073000
@@ -10,7 +10,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Whole Grain French Toast Sticks\n\nHolbrook Middle High School: Whole Grain French Toast Sticks
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260602-64282e88-7003-4a03-9f29-82a009a42493
+UID:combined-20260602-d1947028-9389-4467-bd3b-c12718cfceff
 DTSTAMP:20260602T060000Z
 DTSTART;TZID=America/New_York:20260602T070000
 DTEND;TZID=America/New_York:20260602T073000
@@ -18,7 +18,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Blueberry Bash Waffles\n\nHolbrook Middle High School: Blueberry Bash Waffles
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260603-cad3bfb9-a64e-4c9d-bd8d-a18641e75ee7
+UID:combined-20260603-a2cb2123-c50a-44c8-9579-293a1a6ad829
 DTSTAMP:20260603T060000Z
 DTSTART;TZID=America/New_York:20260603T070000
 DTEND;TZID=America/New_York:20260603T073000
@@ -26,7 +26,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Mini Cinnis\n\nHolbrook Middle High School: Mini Cinnis
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260604-7a87373b-ebb0-43ea-b81f-5365bc919b22
+UID:combined-20260604-088c1e75-d92b-44cd-81bd-96acbe59455a
 DTSTAMP:20260604T060000Z
 DTSTART;TZID=America/New_York:20260604T070000
 DTEND;TZID=America/New_York:20260604T073000
@@ -34,7 +34,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Strawberry Cream Cheese Stuffed Bagel\n\nHolbrook Middle High School: Strawberry Cream Cheese Stuffed Bagel
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260605-5d62da16-65ed-4587-a968-abb3871882ce
+UID:combined-20260605-73fa31d8-f1d3-4f61-9d00-252e5e871a96
 DTSTAMP:20260605T060000Z
 DTSTART;TZID=America/New_York:20260605T070000
 DTEND;TZID=America/New_York:20260605T073000
@@ -42,7 +42,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Whole Grain Pancake Bites\n\nHolbrook Middle High School: Whole Grain Pancake Bites
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260608-440ef315-8411-4030-b580-2a8c8e47b215
+UID:combined-20260608-bab4c5b4-b18a-4068-9cc1-8fddb2b120f9
 DTSTAMP:20260608T060000Z
 DTSTART;TZID=America/New_York:20260608T070000
 DTEND;TZID=America/New_York:20260608T073000
@@ -50,7 +50,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Whole Grain French Toast Sticks\n\nHolbrook Middle High School: Whole Grain French Toast Sticks
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260609-ea2a0003-199f-46a4-a52d-087ab243c351
+UID:combined-20260609-f735c2f7-f95d-482c-bad0-f66a2f7a4627
 DTSTAMP:20260609T060000Z
 DTSTART;TZID=America/New_York:20260609T070000
 DTEND;TZID=America/New_York:20260609T073000
@@ -58,7 +58,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Blueberry Bash Waffles\n\nHolbrook Middle High School: Blueberry Bash Waffles
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260610-d04d704c-cf4a-487d-9dda-8b08ee4571f0
+UID:combined-20260610-23e2ee94-abb7-44cd-86f9-eaa60d8828f6
 DTSTAMP:20260610T060000Z
 DTSTART;TZID=America/New_York:20260610T070000
 DTEND;TZID=America/New_York:20260610T073000
@@ -66,7 +66,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Mini Cinnis\n\nHolbrook Middle High School: Mini Cinnis
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260611-756e2f89-7ea4-478e-9017-1c8ef1ef9525
+UID:combined-20260611-982c42c9-8321-4885-a251-4ae58d2ee0d2
 DTSTAMP:20260611T060000Z
 DTSTART;TZID=America/New_York:20260611T070000
 DTEND;TZID=America/New_York:20260611T073000
@@ -74,7 +74,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Strawberry Cream Cheese Stuffed Bagel\n\nHolbrook Middle High School: Strawberry Cream Cheese Stuffed Bagel
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260612-4060a357-f887-4dc7-afb7-b53809a4abce
+UID:combined-20260612-c1b259e5-3b64-4ea0-b17d-2dcbe1edf1fb
 DTSTAMP:20260612T060000Z
 DTSTART;TZID=America/New_York:20260612T070000
 DTEND;TZID=America/New_York:20260612T073000
@@ -82,7 +82,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Whole Grain Pancake Bites\n\nHolbrook Middle High School: Whole Grain Pancake Bites
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260615-b72f0feb-1e43-4025-b47e-bb26e005aeab
+UID:combined-20260615-d6cfffac-7ae7-4768-9198-1c1c00271360
 DTSTAMP:20260615T060000Z
 DTSTART;TZID=America/New_York:20260615T070000
 DTEND;TZID=America/New_York:20260615T073000
@@ -90,7 +90,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Whole Grain French Toast Sticks\n\nHolbrook Middle High School: Whole Grain French Toast Sticks
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260616-9833e826-05ab-44fd-b344-ac8605736f1a
+UID:combined-20260616-90fdbdc1-18e1-4443-8512-b5e5a7e983ac
 DTSTAMP:20260616T060000Z
 DTSTART;TZID=America/New_York:20260616T070000
 DTEND;TZID=America/New_York:20260616T073000
@@ -98,7 +98,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Blueberry Bash Waffles\n\nHolbrook Middle High School: Blueberry Bash Waffles
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260617-103a7c18-d235-48e4-9254-4ecc0e4750bc
+UID:combined-20260617-36c02d84-319e-4959-8f92-992467b0853b
 DTSTAMP:20260617T060000Z
 DTSTART;TZID=America/New_York:20260617T070000
 DTEND;TZID=America/New_York:20260617T073000
@@ -106,7 +106,7 @@ SUMMARY:School Breakfast
 DESCRIPTION:JFK Elementary: Mini Cinnis\n\nHolbrook Middle High School: Mini Cinnis
 END:VEVENT
 BEGIN:VEVENT
-UID:combined-20260618-57d63ab2-6966-498f-bcc9-3b251a4b74b0
+UID:combined-20260618-b93fac71-ee55-4222-ace3-5fd5fe6668f3
 DTSTAMP:20260618T060000Z
 DTSTART;TZID=America/New_York:20260618T070000
 DTEND;TZID=America/New_York:20260618T073000
